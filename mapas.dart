@@ -1,5 +1,5 @@
-// dato complejo equivalente a un diccionario en python
 void main() {
+// dato complejo equivalente a un diccionario en python
   var miprimermapa = {
     'nombre': 'Nicolás',
     'edad': 32,
