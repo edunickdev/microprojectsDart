@@ -1,6 +1,5 @@
 void main(List<String> args) {
   int a = 10;
-  int b = 25;
 
   var c;
   c ??= 1; // este le asigna el valor que contiene la otra variable(ver print)
