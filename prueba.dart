@@ -19,14 +19,12 @@ void main() {
     if (lado1 == lado2 && lado1 == lado3) {
       // print('el triangulo es Equilatero');
       Equilatero++;
+    } else if (lado1 == lado2 || lado2 == lado3 || lado1 == lado3) {
+      // print('el triangulo es Isosceles');
+      Isosceles++;
     } else {
-      if (lado1 == lado2 || lado2 == lado3 || lado1 == lado3) {
-        // print('el triangulo es Isosceles');
-        Isosceles++;
-      } else {
-        // print('el triangulo es Escaleno');
-        Escaleno++;
-      }
+      // print('el triangulo es Escaleno');
+      Escaleno++;
     }
   }
   print('la cantidad total de triangulos Equilateros es $Equilatero');
